@@ -1,0 +1,38 @@
+
+.header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.header img{
+    border-radius: 35% ;
+    width: 15rem;
+    justify-self: center;
+    align-self: flex-end;
+
+}
+
+.main-title{
+    color:white;
+    padding: 2rem;
+    align-self: flex-start;
+    
+}
+
+.icons-wrapper{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    padding: 0.7rem;
+    overflow: hidden;
+
+}
+.icon{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+

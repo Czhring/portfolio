@@ -1,0 +1,19 @@
+.about-page{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+    
+}
+h1{
+    font-family:Arial ;
+    font-weight: bold;
+}
+.about-page img{
+    border-radius: 35% ;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
