@@ -5,11 +5,13 @@
     font-family: "Gill Sans", sans-serif;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
+    font-size: 20px;
 }
 .navbar-header{
     font-family:Arial ;
     font-weight: bold ;
-    font-size: 25px;
+    font-size: 30px;
+    color: white;
 }
 .link{
     color:gray;

@@ -1,13 +1,17 @@
 import React from "react";
-import {Image } from "react-bootstrap";
 import self from '../../self.jpeg'
 import './Home.css'
 import { SocialIcon } from 'react-social-icons';
+import {Button} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 const About=() => {
     return (
 <div className='header'>
     <img  src={self} alt ="Robert"/>
     <h1 className="main-title">Fullstack Developer</h1>
+    <Link to="../../GA Resume.pdf" target="_blank" download><Button variant="light">Resume</Button></Link>
+
+
     <div className ="icons-wrapper">
         <div className='icon'><SocialIcon url="https://www.facebook.com/robert.chen.980" />
 </div>
