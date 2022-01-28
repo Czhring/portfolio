@@ -4,7 +4,9 @@ import './Home.css'
 import { SocialIcon } from 'react-social-icons';
 import {Button} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
-const About=() => {
+
+
+const Home=() => {
     return (
 <div className='header'>
     <img  src={self} alt ="Robert"/>
@@ -20,8 +22,9 @@ const About=() => {
         <div className='icon'><SocialIcon url="https://github.com/Czhring" />
 </div>
     </div>
+        
 </div>
     );
   }
   
-  export default About;
+  export default Home;
