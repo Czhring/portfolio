@@ -10,7 +10,8 @@ const Home=() => {
     return (
 <div className='header'>
     <img  src={self} alt ="Robert"/>
-    <h1 className="main-title">Fullstack Developer</h1>
+    <h1 className="main-title">ZhiRong Chen</h1>
+    <h2 className="main-title">Fullstack Developer</h2>
     {/* <Link to="../../GA Resume.pdf" target="_blank" download><Button variant="light">Resume</Button></Link> */}
     <Button href="https://drive.google.com/file/d/14xHtUAh5vlcPyfMRZNeNOOu6uObiWFSo/view?usp=sharing" variant="light">Resume</Button>
 
